@@ -6,7 +6,7 @@ Server-side implementation sample for the Editor.js. It contains data validation
 
 To install lib use composer:
 ```
-composer require codex-team/editor.js:dev-master
+composer require taylanunutmaz/editorjs-php
 ```
 
 # Guide 
