@@ -1,5 +1,5 @@
 {
-    "name": "codex-team/editor.js",
+    "name": "taylanunutmaz/editorjs-php",
     "type": "library",
     "description": "PHP backend implementation for the Editor.js",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "CodeX Team",
             "email": "team@ifmo.su"
+        },
+        {
+            "name": "Taylan Unutmaz",
+            "emai": "taylanunutmaz@gmail.com"
         }
     ],
     "require": {
