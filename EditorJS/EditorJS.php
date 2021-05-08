@@ -107,8 +107,9 @@ class EditorJS
 
         foreach ($this->blocks as $block) {
             $sanitizedBlock = $this->handler->sanitizeBlock($block['type'], $block['data']);
-            $sanitizedBlock['tunes'] = $block['tunes'];
-
+            if (isset($block['tunes'])) {
+                $sanitizedBlock['tunes'] = $block['tunes'];
+            }
             if (!empty($sanitizedBlock)) {
                 array_push($sanitizedBlocks, $sanitizedBlock);
             }
